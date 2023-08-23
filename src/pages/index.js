@@ -19,7 +19,7 @@ export default function Home() {
         <Layout className='pt-0 md:pt-16 sm:pt-8'>
           <div className='ml-12 flex items-center w-full justify-between lg:flex-col-reverse md:ml-auto'>
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
-              <AnimatedText text='Turning Vision Into Reality With Code And Design.'
+              <AnimatedText text='Bringing Ideas To Life With Code and Design'
                 className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl' />
               <p
                 className='my-4 text-base font-medium md:text-sm sm:text-xs'>
