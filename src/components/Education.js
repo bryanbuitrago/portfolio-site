@@ -46,22 +46,16 @@ const Education = () => {
 
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
-                        type='Bachelor Of Science In Computer Science'
+                        type='Fullstack App Development Immersive'
                         time='2016-2020'
-                        place='Massachussets Institue Of Technology (MIT)'
+                        place='General Assembly'
                         info='Fullstack Development'
                     />
                     <Details
-                        type='Bachelor Of Science In Computer Science'
+                        type='Javascript'
                         time='2016-2020'
-                        place='Massachussets Institue Of Technology (MIT)'
-                        info='Fullstack Development'
-                    />
-                    <Details
-                        type='Bachelor Of Science In Computer Science'
-                        time='2016-2020'
-                        place='Massachussets Institue Of Technology (MIT)'
-                        info='Fullstack Development'
+                        place='Galvanize-Hack Reactor'
+                        info='Javascript Language'
                     />
                 </ul>
             </div>
