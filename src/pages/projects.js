@@ -4,7 +4,7 @@ import Head from "next/head"
 import Link from "next/link"
 import Image from "next/image"
 import { GithubIcon } from "@/components/Icons"
-import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import project1 from '../../public/images/projects/meditaion-timer-cover-image.jpeg'
 import { motion } from 'framer-motion'
 import TransitionEffect from "@/components/TransitionEffect"
 
@@ -30,7 +30,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
             </Link>
 
             <div className='w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6'>
-                <span className='text-primary dark:text-primaryDark font-medium text-xl xs:text-base'>{type}</span>
+                <span className='text-primaryDark dark:text-primaryDark font-medium text-xl xs:text-base'>{type}</span>
                 <Link href={link} target='_blank' className='hover:underline underline-offset-2'>
                     <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light sm:text-sm'>{title}</h2>
                 </Link>
@@ -72,7 +72,7 @@ const Project = ({ title, type, img, link, github }) => {
             </Link>
 
             <div className='w-full flex flex-col items-start justify-between mt-4'>
-                <span className='text-primary dark:text-primaryDark font-medium text-xl lg:text-lg md:text-base'>{type}</span>
+                <span className='text-primaryDark dark:text-primaryDark font-medium text-xl lg:text-lg md:text-base'>{type}</span>
                 <Link href={link} target='_blank' className='hover:underline underline-offset-2'>
                     <h2 className='my-2 w-full text-left text-3xl font-bold lg:text-2xl'>{title}</h2>
                 </Link>
@@ -106,11 +106,19 @@ const projects = () => {
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title='Crypto Screener Application'
+                                title='Meditation Timer & Journal App'
                                 img={project1}
-                                summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency.'
+                                summary='A feature-rich Meditation Timer & Journal App using 
+                                         Typescript, React.js, Next.js, Prisma, MongoDB, Chakra-UI, Framer Motion'
+                                link='https://meditate-bryanbuitrago.vercel.app/'
+                                github='https://github.com/bryanbuitrago/meditate'
+                                type='Featured Project'
+                            />
+                        </div>
+                        {/* <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title='Portfolio App'
+                                img={project1}
                                 link='/'
                                 github='/'
                                 type='Featured Project'
@@ -124,16 +132,7 @@ const projects = () => {
                                 github='/'
                                 type='Featured Project'
                             />
-                        </div>
-                        <div className='col-span-6 sm:col-span-12'>
-                            <Project
-                                title='Crypto Screener Application'
-                                img={project1}
-                                link='/'
-                                github='/'
-                                type='Featured Project'
-                            />
-                        </div>
+                        </div> */}
                     </div>
                 </Layout>
             </main>
