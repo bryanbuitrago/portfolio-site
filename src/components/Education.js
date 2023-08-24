@@ -52,11 +52,11 @@ const Education = () => {
                         info='Fullstack Development'
                     />
                     <Details
-                        type='Javascript'
+                        type='Javascript Language Immersive Course'
                         time='2016-2020'
                         place='Galvanize-Hack Reactor'
-                        info='Javascript Language'
-                    />
+                        info='Javascript Programming'
+                    />8/
                 </ul>
             </div>
         </div>
