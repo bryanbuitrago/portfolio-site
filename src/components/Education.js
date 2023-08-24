@@ -46,17 +46,17 @@ const Education = () => {
 
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
-                        type='Fullstack App Development Immersive'
-                        time='2016-2020'
+                        type='Fullstack Web App Development Immersive'
+                        time='Past'
                         place='General Assembly'
                         info='Fullstack Development'
                     />
                     <Details
                         type='Javascript Language Immersive Course'
-                        time='2016-2020'
+                        time='past'
                         place='Galvanize-Hack Reactor'
                         info='Javascript Programming'
-                    />8/
+                    />
                 </ul>
             </div>
         </div>
