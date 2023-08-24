@@ -50,40 +50,27 @@ const Experience = () => {
 
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                 <Details
-                        position='Software Engineer' company='Google'
-                        companyLink='www.google.com'
-                        time='2022-present' address='Mountain View, CA'
-                        work='Worked on a tema responsible for developing new features and tools for 
-                              data analysis and visualization'
+                        position='Fullstack Developer' company='Independent'
+                        companyLink=''
+                        time='2022-present' 
+                        address='Mountain View, CA'
+                        work='Engaged in independently conceptualizing, designing, and implementing TypeScript 
+                              Fullstack applications using React.js, Next.js, Django, and Express.js frameworks.
+                              Leveraged personal projects to enhance skills, encompassing both frontend elegance and backend proficiency.'
                     />
                     <Details
                         position='Fullstack Developer' company='Bluematrix'
-                        companyLink='www.bluematrix.com'
+                        companyLink='www.bluematrix.com/www3/Home.action'
                         time='2022-present' address='New York, NYC'
-                        work='  Worked on a team responsible for developing 
-                                new features and tools for innovative full-stack TypeScript projects, 
-                                enriching user experiences and enhancing backend functionalities alike. '
+                        work='Worked on a team responsible for developing 
+                              new features and tools for innovative Fullstack TypeScript projects, 
+                              enriching user experiences and enhancing backend functionalities alike.'
                     />
                     <Details
-                        position='Software Engineer' company='Google'
-                        companyLink='www.google.com'
+                        position='Software Engineering Instructor' company='Magen David Yeshiva School'
+                        companyLink='www.magendavidyeshivah.org/'
                         time='2022-present' address='Mountain View, CA'
-                        work='Worked on a tema responsible for developing new features and tools for 
-                              data analysis and visualization'
-                    />
-                    <Details
-                        position='Software Engineer' company='Google'
-                        companyLink='www.google.com'
-                        time='2022-present' address='Mountain View, CA'
-                        work='Worked on a tema responsible for developing new features and tools for 
-                              data analysis and visualization'
-                    />
-                    <Details
-                        position='Software Engineer' company='Google'
-                        companyLink='www.google.com'
-                        time='2022-present' address='Mountain View, CA'
-                        work='Worked on a tema responsible for developing new features and tools for 
-                              data analysis and visualization'
+                        work='Instructed aspiring software developers within an educational setting, imparting comprehensive coding knowledge and fostering practical skills for their journey into the tech industry.'
                     />
                 </ul>
             </div>
