@@ -52,8 +52,8 @@ const Experience = () => {
                 <Details
                         position='Fullstack Developer' company='Independent'
                         companyLink=''
-                        time='2022-present' 
-                        address='Mountain View, CA'
+                        time='present' 
+                        address='New York, NYC'
                         work='Engaged in independently conceptualizing, designing, and implementing TypeScript 
                               Fullstack applications using React.js, Next.js, Django, and Express.js frameworks.
                               Leveraged personal projects to enhance skills, encompassing both frontend elegance and backend proficiency.'
@@ -61,7 +61,7 @@ const Experience = () => {
                     <Details
                         position='Fullstack Developer' company='Bluematrix'
                         companyLink='www.bluematrix.com/www3/Home.action'
-                        time='2022-present' address='New York, NYC'
+                        time='past' address='New York, NYC'
                         work='Worked on a team responsible for developing 
                               new features and tools for innovative Fullstack TypeScript projects, 
                               enriching user experiences and enhancing backend functionalities alike.'
@@ -69,8 +69,10 @@ const Experience = () => {
                     <Details
                         position='Software Engineering Instructor' company='Magen David Yeshiva School'
                         companyLink='www.magendavidyeshivah.org/'
-                        time='2022-present' address='Mountain View, CA'
-                        work='Instructed aspiring software developers within an educational setting, imparting comprehensive coding knowledge and fostering practical skills for their journey into the tech industry.'
+                        time='past' address='Brooklyn, NYC'
+                        work='Instructed aspiring software developers within an educational setting, 
+                        imparting comprehensive coding knowledge and fostering practical skills for 
+                        their journey into the tech industry.'
                     />
                 </ul>
             </div>
