@@ -49,12 +49,20 @@ const Experience = () => {
                     dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]' />
 
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
-                    <Details
+                <Details
                         position='Software Engineer' company='Google'
                         companyLink='www.google.com'
                         time='2022-present' address='Mountain View, CA'
                         work='Worked on a tema responsible for developing new features and tools for 
                               data analysis and visualization'
+                    />
+                    <Details
+                        position='Fullstack Developer' company='Bluematrix'
+                        companyLink='www.bluematrix.com'
+                        time='2022-present' address='New York, NYC'
+                        work='  Worked on a team responsible for developing 
+                                new features and tools for innovative full-stack TypeScript projects, 
+                                enriching user experiences and enhancing backend functionalities alike. '
                     />
                     <Details
                         position='Software Engineer' company='Google'
