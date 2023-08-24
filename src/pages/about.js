@@ -49,8 +49,8 @@ const about = () => {
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                             <p className='font-medium'>
                                 I&apos;m Bryan, web and mobile developer driven by a fervor for crafting stunning, practical, 
-                                and user-centric digital journeys. Armed with 6 years of industry expertise, I'm perpetually 
-                                seeking fresh, inventive avenues to materialize clients' visions, surmount their challenges, 
+                                and user-centric digital journeys. Armed with 6 years of industry expertise, I&apos;m perpetually 
+                                seeking fresh, inventive avenues to materialize client&apos;s visions, surmount their challenges, 
                                 and forge intuitive, delightful user interactions.
                             </p>
                             <p className='my-4 font-medium'>
@@ -58,7 +58,7 @@ const about = () => {
                                 project with a dedication to impeccable design and user-oriented strategies
                             </p>
                             <p className='font-medium'>
-                                The art of coding extends beyond syntax; it's a medium through which imagination 
+                                The art of coding extends beyond syntax; it&apos;ms a medium through which imagination 
                                 comes to life, as ideas evolve into tangible reality through the strokes of logic and innovation.
                             </p>
                         </div>
