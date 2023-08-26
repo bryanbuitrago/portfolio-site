@@ -7,7 +7,6 @@ import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
 import TechStacks from '@/components/TechStacks'
 import TransitionEffect from '@/components/TransitionEffect'
-
 export default function Home() {
   return (
     <>
@@ -29,8 +28,8 @@ export default function Home() {
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link
-                  href='/dummy.pdf'
-                  target={'../../public/BryanBuitrago-CV.pdf'}
+                  href='/public/BryanBuitrago-CV.pdf'
+                  target={'_blank'}
                   download={true}
                   className='
                   flex items-center bg-dark text-light p-2.5 px-14 rounded-lg 
